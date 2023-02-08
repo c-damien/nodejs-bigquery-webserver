@@ -1,0 +1,14 @@
+{
+  "name": "bq_web_app",
+  "version": "1.0.0",
+  "description": "Example of accessing BigQuery from Node.js",
+  "author": "Damien Contreras <cdamien@google.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^6.0.3",
+    "express": "^4.17.15"
+  }
+}
