@@ -11,10 +11,10 @@ This is to showcase how to use BigQuery in the context of a webApplication, usin
 # Service Account:
 A service account needs to be created in the project where the query will be executed and billed. 
 If you are using slots make sure that those slots are in the same region as the dataset(s) used in the query.
-To create the account, From the GCP console, go to burger menu > IAM & Admin > Service Accounts, add a new one and generate a key and add it to node-app after cloning this repo.
-Please rename the key file to service_account.json or update accordingly in server.js. 
-Necessary access permission to be set is: 
-From the GCP console, go to burger menu > IAM & Admin > IAM, select your service account
+To create the account, From the GCP console, go to **burger menu** > **IAM & Admin** > **Service Accounts**, add a new one and generate a key and add it to node-app after cloning this repo.
+Please rename the key file to **service_account.json** or update accordingly in server.js. 
+Necessary access permission to be set is to have the **BigQuery Job User** 
+From the GCP console, go to **burger menu** > **IAM & Admin** > **IAM**, select your service account and add the necessary role.
 
 
 ## File structure:
